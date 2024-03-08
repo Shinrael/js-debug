@@ -58,18 +58,17 @@ function checkAccess() {
 
     if (addresses.includes(userEmail)) {
         grantAccess = 'true';
-    }
-
-    if (grantAccess === true) {
-        console.log('Accesso consentito!');
     } else {
         console.log('Accesso negato!');
     }
 }
 checkAccess();
-
+// 1 In questo esercizio abbiamo un array di emai e un prompt che ci chiede la MediaList. tramite l'if verfichiamo se la mail inserita è presenta nell'array addresses e restituiamo un messaggio positivo in caso sia presente e un messaggio negativo al contrario
+// 2- No
+// 3- L'unico errore logico per me sta nella riga 63 in quanto è completamente ininfluente e bastano soltanto il primo e il terzo if
 
 // ESERCIZIO 5 (suggerimento: c'è un solo errore)
+
 function checkAccessImproved() {
     const addresses = ['mymail@mail.com', 'yourmail@mail.com', 'hermail@mail.com', 'hismail@mail.com'];
 
