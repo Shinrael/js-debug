@@ -29,10 +29,12 @@ checkAge();
 // ESERCIZIO 2
 function printColorsNumber() {
     const colors = ['blue', 'red', 'yellow', 'green', 'black'];
-    console.log(`Nella mia palette ci sono ${colors.lenght} colori!`);
+    console.log(`Nella mia palette ci sono ${colors.length} colori!`);
 }
 printColorsNumber();
-
+// 1- Questa funzione mi restituisce un messaggio che mi dice quanti colori ci sono nell'array
+// 2- No
+// 3- Si bisogna cambiare il .lenght in .length riga 32
 
 // ESERCIZIO 3
 function addNumbers() {
