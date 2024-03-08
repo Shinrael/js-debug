@@ -54,3 +54,4 @@ displayEvenNumbers();
  // dovrebbe restituire [2,4,6,8]
 // 1- In questa funzione abbiamo due array uno con dei numeri e l'altro vuoto. Tramite il ciclo andiamo a mettere dentro l'array vuoto solo quei numeri che mi restituiscono 0 divisi per due, quindi i numeri pari 
 // 2- Si nella riga 46 il ; finale nella condizione non serve, nella riga 47 serve il triplo = per il controllo e [i] dopo numbers e togliamo il ;, nella riga 48 non pushiamo (i) ma pushiamo (numbers[i]).
+// 3- Non mi sembra
