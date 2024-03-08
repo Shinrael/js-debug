@@ -64,15 +64,11 @@ const cars = [
     },
 ];
 
-const gasolineCars = cars.filter( (auto) >= auto.type === 'benzina');
+const gasolineCars = cars.filter( (auto) => auto.type === 'benzina');
 
-const dieselCars = cars.filter( (auto) => {
-    auto.type === 'diesel';
-});
+const dieselCars = cars.filter( (auto) => auto.type === 'diesel');
 
-const otherCars = cars.filter( (auto) => {
-    return auto.type !== 'benzina' || auto.type !== 'diesel';
-});
+const otherCars = cars.filter( (auto) => auto.type !== 'benzina' && auto.type !== 'diesel');
 
 console.log('Auto a benzina');
 console.log('*******************************');
@@ -85,5 +81,5 @@ console.log(dieselCars);
 console.log('Tutte le altre auto');
 console.log(otherCars);
 
-1-
-// 2- riga 59 manca una virgola,
+// 1- ciao
+// 2- Nelle arrow function mettiamo tutte le lettere minuscole, riga 59 manca una virgola, riga 67 >= ma =>, riga 69 e 71 non serve il {}, nella riga 71 serve && non ||
