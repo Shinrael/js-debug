@@ -13,7 +13,7 @@
 // ESERCIZIO 1
 function checkAge() {
     const myAge = 32;
-    const message = '';
+    let message = '';
 
     if (myAge < 18) {
         message = `Sei troppo giovane! Hai ${myAge} anni!`;
@@ -22,6 +22,9 @@ function checkAge() {
     }
 }
 checkAge();
+// 1- Questo codice mi restituisce un messaggio se ho meno di 18 anni e un altro messaggio se ne ho più di 18
+// 2- No
+// 3- Si perchè const message non va bene in questo caso visto che la variabile può cambiare, quindi meglio un let
 
 // ESERCIZIO 2
 function printColorsNumber() {
@@ -88,32 +91,4 @@ function checkAccessImproved() {
         }
     }
     checkAccessImproved();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
