@@ -43,11 +43,14 @@ function loopToFive() {
 function displayEvenNumbers() {
     let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
     let evenNumbers = [];
-    for (let i = 0; i < numbers.length - 1; i++;) {
-        if (numbers % 2 = 0); {
-            evenNumbers.push(i);
+    for (let i = 0; i < numbers.length - 1; i++) {
+        if (numbers[i] % 2 === 0) {
+            evenNumbers.push(numbers[i]);
         }
         return evenNumbers;
     }
 }
-displayEvenNumbers(); // dovrebbe restituire [2,4,6,8]
+displayEvenNumbers();
+ // dovrebbe restituire [2,4,6,8]
+// 1- In questa funzione abbiamo due array uno con dei numeri e l'altro vuoto. Tramite il ciclo andiamo a mettere dentro l'array vuoto solo quei numeri che mi restituiscono 0 divisi per due, quindi i numeri pari 
+// 2- Si nella riga 46 il ; finale nella condizione non serve, nella riga 47 serve il triplo = per il controllo e [i] dopo numbers e togliamo il ;, nella riga 48 non pushiamo (i) ma pushiamo (numbers[i]).
