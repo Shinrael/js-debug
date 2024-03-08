@@ -11,19 +11,23 @@
 
 
 // ESERCIZIO 1
-for (let i = 0; i > 5; i++) {
+for (let i = 0; i < 5; i++) {
     console.log(i);
 }
-
+// 1- Questo esercizio è un ciclo e mi stampa i valori da 0 a 4
+// 2- No
+// 3- Si bisogna cambiare il > in < sennò la condizione di partenza sarà sempre falsa in quanto i = 0
 
 // ESERCIZIO 2
 function addIfEven(num) {
-    if (num % 2 = 0) {
+    if (num % 2 === 0) {
         return num + 5;
     }
     return num;
 }
-
+// 1- Questo esercizio è una funzione e dice che se il numero è pari mi restituisce un + 5 al numero di partenza altrimenti no
+// 2- Si l'uguale deve essere triplo perchè mi serve per confrontare l'uguaglianza
+// 3- No
 
 // ESERCIZIO 3
 function loopToFive() {
