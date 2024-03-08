@@ -94,8 +94,9 @@ function checkAccessImproved() {
             console.log('Accesso negato!');
         }
     }
+}   
     checkAccessImproved();
-}
+
 
 // 1- Con questa funzione abbiamo una cosa molto simile all'esercizio 4 ma con un controllo sulla lunghezza in più
 // 2- mancava un } alla fine e i valori booleani non tra gli apici
