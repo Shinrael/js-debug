@@ -39,11 +39,14 @@ printColorsNumber();
 // ESERCIZIO 3
 function addNumbers() {
     const userNumber = prompt('Inserisci un numero');
-    const total = userNumber + 12;
+    const total = parseInt(userNumber) + 12;
 
     console.log(`Il risultato finale è ${total}`);
 }
 addNumbers();
+// 1- La funzione chiede un numero all'utente tramite il prompt e aggiunge 12 facendo uscire un messaggio con la somma del numero chiesto piu 12
+// 2- no
+// 3- si dobbiamo aggiungere un parseInt a riga 42 davanti ad usernumber perchè il prompt restituisce una stringa e dobbiamo trasforma in numero
 
 
 // ESERCIZIO 4
