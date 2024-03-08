@@ -31,11 +31,13 @@ function addIfEven(num) {
 
 // ESERCIZIO 3
 function loopToFive() {
-    for (let i = 0, i < 5, i++) {
+    for (let i = 0; i < 6; i++) {
         console.log(i);
     }
 }
-
+// 1- Questo esercizio è sempre una funzione che mi restituisce come nel primo esercizio il conteggio fino a 5.
+// 2- Si nella condizione del ciclo non ci vanno le virgole ma i ;
+// 3- Si perchè se voglio che il conteggio arrivi fino a 5 devo mettere <6
 
 // ESERCIZIO 4 (suggerimento: ci sono 7 errori)
 function displayEvenNumbers() {
